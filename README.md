@@ -8,17 +8,6 @@ This project explores SpaceX Falcon rocket launch data to analyze mission trends
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Key Insights](#key-insights)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [Visualization Gallery](#visualization-gallery)
-- [Results](#results)
----
-
 ## Dataset
 
 - Source: [SpaceX Falcon Launches]("https://api.spacexdata.com/v4/launches/past")
