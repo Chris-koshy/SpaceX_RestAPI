@@ -5,7 +5,7 @@
 
 This project explores SpaceX Falcon rocket launch data to analyze mission trends, operational performance, and predict launch outcomes using machine learning classifiers.
 
-Through a blend of SQL data queries, exploratory data analysis (EDA), geospatial mapping, dashboard visualization, and predictive modeling, the project provides actionable insights into commercial rocket launches—highlighting successes, challenges, and the factors influencing mission outcomes.
+Through a blend of SQL data queries, exploratory data analysis (EDA), geospatial mapping, dashboard visualization, and predictive modeling, the project provides actionable insights into commercial rocket launches highlighting successes, challenges, and the factors influencing mission outcomes.
 
 # 🧩 Dataset
 
@@ -102,5 +102,7 @@ Clone this repository:
 # 👤 Author
 
 Chris Varghese Koshy
+
 B.Sc. (Hons.) Data Science & Analytics
+
 Ramaiah University of Applied Sciences
