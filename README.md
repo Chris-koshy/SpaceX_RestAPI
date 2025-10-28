@@ -1,24 +1,108 @@
-# SpaceX_RestAPI
+🚀 SpaceX_RestAPI
+SpaceX Falcon 9 Launch Data Analysis & Prediction
+📘 Overview
 
-# SpaceX Falcon 9 Launch Data Analysis & Prediction
+This project explores SpaceX Falcon rocket launch data to analyze mission trends, operational performance, and predict launch outcomes using machine learning classifiers.
 
-## Overview
+Through a blend of SQL data queries, exploratory data analysis (EDA), geospatial mapping, dashboard visualization, and predictive modeling, the project provides actionable insights into commercial rocket launches—highlighting successes, challenges, and the factors influencing mission outcomes.
 
-This project explores SpaceX Falcon rocket launch data to analyze mission trends, operational performance, and predict launch outcomes using machine learning classifiers. Through a blend of SQL data queries, exploratory data analysis, geospatial mapping, dashboard visualization, and predictive modeling, the project provides actionable insight into commercial rocket launches—highlighting the successes, challenges, and the factors that influence mission outcomes.
+🧩 Dataset
 
----
+Source: SpaceX Falcon Launches (via SpaceX REST API and open datasets)
 
-## Dataset
+Features include:
 
-- Source: [SpaceX Falcon Launches]("https://api.spacexdata.com/v4/launches/past")
-- Features include: Launch date, site, payload mass, booster version, orbit, landing outcome, and more.
+Launch date
 
----
+Launch site
 
-## Key Insights
+Payload mass
 
-- **Florida is the launch hub:** Over half of all SpaceX launches and successes occur at Cape Canaveral’s SLC 40 and Kennedy Space Center’s LC 39A. Vandenberg SLC 4E supports polar orbits and lower traffic.
-- **Success rates are high:** Mission success exceeds 75%, with the Decision Tree and SVM models achieving highest accuracy (~0.87) for predicting launch outcomes.
-- **Failures are rare but informative:** Most misclassifications or failures are associated with earlier booster variants or missions at the edge of payload limits.
-- **Machine learning is effective:** Classification models can robustly predict launch success based on operational features, and reveal influential factors like payload, launch site, and booster version.
-- **Dashboarding & Mapping:** Visual dashboards and
+Booster version
+
+Orbit type
+
+Landing outcome
+
+Mission success/failure
+
+📊 Key Insights
+
+🚀 Florida is the launch hub:
+Over half of all SpaceX launches and successes occur at Cape Canaveral’s SLC 40 and Kennedy Space Center’s LC 39A.
+Vandenberg’s SLC 4E primarily supports polar orbits with lower launch frequency.
+
+✅ High mission success rate:
+Overall launch success exceeds 75%, with the Decision Tree and SVM classifiers achieving the highest accuracy (~0.87) in predicting launch outcomes.
+
+⚠️ Failures are rare but informative:
+Most failed or misclassified launches are associated with early booster variants or missions at the payload capacity limit.
+
+🤖 Machine learning effectiveness:
+Models like Logistic Regression, Decision Tree, and SVM reveal payload mass, launch site, and booster version as the most influential predictors of success.
+
+📍 Dashboarding & Mapping:
+Interactive dashboards and maps visualize launch site distribution, success probabilities, and temporal mission trends, aiding in quick strategic assessments.
+
+🛠️ Technologies Used
+
+Python 3
+
+Jupyter Notebook
+
+Pandas, NumPy – Data preprocessing and manipulation
+
+Matplotlib, Seaborn, Plotly – Data visualization
+
+Scikit-learn – Model training and evaluation
+
+Folium – Geospatial mapping
+
+Dash / Plotly Express – Dashboard creation
+
+SQL / SQLite – Data extraction and querying
+
+🧠 Machine Learning Models
+Model	Accuracy	Key Strength
+Logistic Regression	0.81	Fast, interpretable baseline
+Decision Tree	0.87	High accuracy, feature importance
+SVM (RBF Kernel)	0.87	Robust classification
+KNN	0.79	Simplicity, non-parametric
+Random Forest	0.85	Balanced accuracy and robustness
+💡 How to Run the Project
+
+Clone this repository:
+
+git clone https://github.com/<your-username>/SpaceX_RestAPI.git
+cd SpaceX_RestAPI
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Open and run the notebook:
+
+jupyter notebook SpaceX.ipynb
+
+
+Explore the dashboard (if applicable):
+
+python app.py
+
+📈 Results
+
+Comprehensive EDA showcasing key operational metrics
+
+Interactive maps of global launch sites
+
+Predictive modeling of launch success
+
+Visual dashboards summarizing model results and insights
+
+👤 Author
+
+Chris Varghese Koshy
+B.Sc. (Hons.) Data Science & Analytics
+Ramaiah University of Applied Sciences
