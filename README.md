@@ -81,6 +81,8 @@ jupyter notebook SpaceX.ipynb
 - Visual dashboards summarizing model results and insights
 
 ### Author
+```
 Chris Varghese Koshy
 B.Sc. (Hons.) Data Science & Analytics
 Ramaiah University of Applied Sciences
+```
